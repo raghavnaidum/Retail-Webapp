@@ -18,7 +18,8 @@ public class BasicTestIT {
 	 WebDriver	driver = new HtmlUnitDriver();
 	  //driver.get("http://localhost:8092/retailone/");
 	  //driver.get("https://devopsdemoapp.cfapps.io/");
-	  driver.get("https://RetailDemoPcfApp.cogpcfdevops.com/");
+	  //driver.get("https://RetailDemoPcfApp.cogpcfdevops.com/");
+	  driver.get("http://35.185.191.108:8080/");
 	  Assert.assertEquals("Retail Application Demo", driver.getTitle());
 	  driver.close();
   }
